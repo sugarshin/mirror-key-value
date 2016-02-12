@@ -10,6 +10,15 @@
   "files": [
     "index.js"
   ],
+  "keywords": [
+    "mirror",
+    "util",
+    "array",
+    "object",
+    "key-value",
+    "action-types",
+    "flux"
+  ],
   "scripts": {
     "lint": "eslint src",
     "test": "mocha --compilers js:espower-babel/guess test.js",
