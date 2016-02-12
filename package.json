@@ -1,0 +1,33 @@
+{
+  "name": "mirror-key-value",
+  "version": "1.0.0",
+  "description": "Mirroring to keys and values from array of strings",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sugarshin/mirror-key-value.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test": "mocha --compilers js:espower-babel/guess test.js",
+    "check": "npm run lint && npm t",
+    "build:babel": "babel -o index.js --presets es2015 --no-babelrc src/index.js",
+    "build": "npm run check && npm run build:babel"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-eslint": "^4.1.8",
+    "babel-preset-es2015": "^6.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-sugarshin": "0.0.13",
+    "eslint-plugin-babel": "^3.1.0",
+    "espower-babel": "^4.0.1",
+    "mocha": "^2.4.5",
+    "power-assert": "^1.2.0"
+  }
+}
