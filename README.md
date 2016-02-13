@@ -28,6 +28,10 @@ export default mirrorKeyValue([
   'DELETE_TODO',
   'CHANGE_COMPLETE'
 ]);
+
+//
+
+import * as types from './constants/action-types';
 ```
 
 ## Contributing
