@@ -12,7 +12,9 @@
  * @returns {Object}
  */
 export default function mirrorKeyValue(array, base = {}) {
-  if (!Array.isArray(array) || !isArrayOfString(array)) { throw new TypeError('should be an array of string'); }
+  if (!Array.isArray(array) || !isArrayOfString(array)) {
+    throw new TypeError('should be an array of string');
+  }
   return array.reduce((result, str) => {
     if (result[str]) { return result; }
     result[str] = str;
