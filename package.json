@@ -23,8 +23,8 @@
     "lint": "eslint src",
     "test": "mocha --compilers js:espower-babel/guess test.js",
     "check": "npm run lint && npm t",
-    "build:babel": "babel -o index.js --presets es2015 --no-babelrc src/index.js",
-    "build": "npm run check && npm run build:babel"
+    "compile": "babel -o index.js --presets es2015 --no-babelrc src/index.js",
+    "build": "npm run check && npm run compile"
   },
   "author": "sugarshin",
   "license": "MIT",
