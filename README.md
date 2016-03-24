@@ -1,9 +1,9 @@
 # mirror-key-value
 
+[![npm version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
 [![Devdependency Status][david-dev-image]][david-dev-url]
-[![GitHub version][github-ver-image]][github-ver-url]
 [![License][license-image]][license-url]
 
 Mirroring to keys and values from array of strings
@@ -31,7 +31,7 @@ export default mirrorKeyValue([
 
 //
 
-import * as types from './constants/action-types';
+import types from './constants/action-types';
 ```
 
 ## Contributing
@@ -48,10 +48,8 @@ import * as types from './constants/action-types';
 
 © sugarshin
 
-[npm-image]: http://img.shields.io/npm/v/mirror-key-value.svg
+[npm-image]: http://img.shields.io/npm/v/mirror-key-value.svg?style=flat-square
 [npm-url]: https://www.npmjs.org/package/mirror-key-value
-[bower-image]: http://img.shields.io/bower/v/mirror-key-value.svg
-[bower-url]: http://bower.io/search/?q=mirror-key-value
 [travis-image]: http://img.shields.io/travis/sugarshin/mirror-key-value/master.svg?branch=master
 [travis-url]: https://travis-ci.org/sugarshin/mirror-key-value
 [david-image]: https://david-dm.org/sugarshin/mirror-key-value.svg
@@ -60,10 +58,5 @@ import * as types from './constants/action-types';
 [david-dev-url]: https://david-dm.org/sugarshin/mirror-key-value#info=devDependencies
 [gratipay-image]: http://img.shields.io/gratipay/sugarshin.svg
 [gratipay-url]: https://gratipay.com/sugarshin/
-[coveralls-image]: https://coveralls.io/repos/sugarshin/mirror-key-value/badge.svg
-[coveralls-url]: https://coveralls.io/r/sugarshin/mirror-key-value
-[github-ver-image]: https://badge.fury.io/gh/sugarshin%2Fes6-module-skeleton.svg
-[github-ver-url]: http://badge.fury.io/gh/sugarshin%2Fes6-module-skeleton
 [license-image]: http://img.shields.io/:license-mit-blue.svg
 [license-url]: http://sugarshin.mit-license.org/
-[downloads-image]: http://img.shields.io/npm/dm/mirror-key-value.svg
