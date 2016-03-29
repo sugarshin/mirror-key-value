@@ -12,8 +12,8 @@
  * @returns {Object}
  */
 export default function mirrorKeyValue(array, base = {}) {
-  if (!Array.isArray(array) || !isArrayOfString(array)) {
-    throw new TypeError('should be an array of string');
+  if (!Array.isArray(array) || !isStrings(array)) {
+    throw new TypeError('should be an array of string.');
   }
   return array.reduce((result, str) => {
     if (result[str]) { return result; }
@@ -22,6 +22,6 @@ export default function mirrorKeyValue(array, base = {}) {
   }, base);
 }
 
-function isArrayOfString(array) {
+function isStrings(array) {
   return array.every(val => typeof val === 'string');
 }
