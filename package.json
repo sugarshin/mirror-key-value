@@ -1,6 +1,6 @@
 {
   "name": "mirror-key-value",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Mirroring to keys and values from array of strings",
   "repository": {
     "type": "git",
