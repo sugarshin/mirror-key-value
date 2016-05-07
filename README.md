@@ -23,6 +23,7 @@ mirrorKeyValue(['val1', 'val2']); // => { val1: 'val1', val2: 'val2' }
 Create action types of Flux application as an example use
 
 ```js
+// action-types.js
 export default mirrorKeyValue([
   'ADD_TODO',
   'DELETE_TODO',

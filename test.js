@@ -1,5 +1,5 @@
-import assert from 'power-assert';
-import mirrorKeyValue from '.';
+import assert from 'assert';
+import mirrorKeyValue from './src';
 
 describe('mirrorKeyValue', () => {
   it('case', () => {
